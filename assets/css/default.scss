@@ -1,0 +1,56 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+html {
+  margin: 0 auto;
+}
+
+body {
+  font-family: BlinkMacSystemFont, Segoe UI, Hiragino Kaku Gothic ProN, "メイリオ", meiryo, 'Open Sans Regular';
+  width: 100%;
+  margin-top: 30px;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+.header {
+  margin: 30px 0 50px;
+  .back {
+    font-family: Menlo;
+  }
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.content {
+  margin: 0 30px;
+}
+
+.box {
+  margin: 10px 0;
+}
+
+nav.navbar {
+  background-color: transparent;
+  border-color: transparent;
+}
