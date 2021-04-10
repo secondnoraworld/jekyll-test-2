@@ -55,6 +55,7 @@ https://github.com/secondnoraworld/jekyll-test-2
 [secondnoraworld/jekyll-test-2](https://github.com/secondnoraworld/jekyll-test-2)
 
 # テーブル
+
 | 左寄せ | 中央寄せ | 右寄せ | 指定なし |
 |:---|:---:|---:|---|
 | これは左寄せ | これは中央寄せ | これは右寄せ | これは指定なし |
