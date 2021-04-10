@@ -3,54 +3,25 @@
 
 @import "{{ site.theme }}";
 
-html {
-  margin: 0 auto;
-}
-
 body {
-  font-family: BlinkMacSystemFont, Segoe UI, Hiragino Kaku Gothic ProN, "メイリオ", meiryo, 'Open Sans Regular';
-  width: 100%;
-  margin-top: 30px;
-}
-
-*:focus {
-  outline: none !important;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-}
-
-.header {
-  margin: 30px 0 50px;
-  .back {
-    font-family: Menlo;
-  }
-}
-
-.title {
-  margin-bottom: 30px;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 .container {
-  max-width: 900px;
-  margin: 0 auto;
+  margin-top: 50px;
 }
 
-.content {
-  margin: 0 30px;
+.site-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 24px;
 }
 
-.box {
-  margin: 10px 0;
-}
-
-nav.navbar {
-  background-color: transparent;
-  border-color: transparent;
+.page-title {
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
 }
